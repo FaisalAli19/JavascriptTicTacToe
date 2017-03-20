@@ -2,7 +2,7 @@
 
 This is a Javascript TicTacToe game developed as a freecodecamp challenge.
 
-You can visit this app on heroku here: ``
+You can visit this app on heroku here: `https://javascripttictactoe.herokuapp.com/`
 
 ## Skills Used
 * HTML5
@@ -13,7 +13,7 @@ You can visit this app on heroku here: ``
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-Clone the repository from here: https://github.com/FaisalAli19/JavascriptTicTacToe.git or
+Clone the repository from here: `https://github.com/FaisalAli19/JavascriptTicTacToe.git` or
 Download the Zip file to your machine.
 
 ### Prerequisites
@@ -32,5 +32,5 @@ NPM
 ## Acknowledgments
 
 * [JQuery](https://jquery.com/) Team for library.
-* [Google Developer](https://developers.google.com/speed/libraries/) Google Developer Team for hosted Library CDN.
-* [FontAwesome](http://fontawesome.io/) FontAwesome Team for icons.
+* [Google Developer](https://developers.google.com/speed/libraries/) Team for hosted Library CDN.
+* [FontAwesome](http://fontawesome.io/) Team for icons.
