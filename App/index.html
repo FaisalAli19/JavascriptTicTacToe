@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Cinzel+Decorative:400,700" rel="stylesheet">
+    <title>Tic Tac Toe</title>
+    <!-- FontAwesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="head">
+        <h1>Tic Tac Toe</h1>
+        <p>Build with <i class="fa fa-heart"></i> by Faisal Ali</p>
+    </div>
+
+
+    <!-- Game Container -->
+    <div class="game-container">
+
+        <!-- Players turn message -->
+        <h3 class="turn"></h3>
+
+        <!-- Main game board -->
+        <div class="game-border">
+            <div class="disable-click"></div>
+            <div class="game-board">
+                <div class="row">
+                    <a class="box" id="0" href="#"></a>
+                    <a class="box" id="1" href="#"></a>
+                    <a class="box" id="2" href="#"></a>
+                </div>
+                <div class="row">
+                    <a class="box" id="3" href="#"></a>
+                    <a class="box" id="4" href="#"></a>
+                    <a class="box" id="5" href="#"></a>
+                </div>
+                <div class="row">
+                    <a class="box" id="6" href="#"></a>
+                    <a class="box" id="7" href="#"></a>
+                    <a class="box" id="8" href="#"></a>
+                </div>
+
+                <!-- Winner Message -->
+                <div class="winner hide">
+                    <h4 class="message"></h4>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Game Controller -->
+    <div class="controller">
+        <div class="begin">
+            <a class="start" href="#">Start</a>
+        </div>
+        <div class="xando hide">
+            <h5>Player one Choose</h5>
+            <a class="X choice" href="#">X</a>
+            <a class="O choice" href="#">O</a>
+        </div>
+        <div class="reset-game hide">
+            <h5>Play Again</h5>
+            <a href="#" class="reset">Restart</a>
+        </div>
+    </div>
+
+    <!-- Jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <!-- javascript file -->
+    <script type="text/javascript" src="javascript/script.js"></script>
+</body>
+</html>

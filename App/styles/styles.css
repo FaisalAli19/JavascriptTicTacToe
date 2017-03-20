@@ -1,0 +1,179 @@
+body{
+    background: url("../images/wood.jpg");
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 16px;
+    margin: 0;
+}
+
+.head{
+    background: rgba(189,189,189 ,.5);
+    margin: 0;
+    padding: 5px;
+    box-shadow: 1px 1px 5px rgba(0,0,0,.2);
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-align-items: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.head h1{
+    margin: 0;
+    color: #795548;
+}
+
+.head p{
+    margin: 0;
+    color: #795548;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.game-container{
+    width: 650px;
+    position: relative;
+    height: 480px;
+    margin: 0 auto;
+}
+
+.disable-click{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.game-border{
+    border: 20px solid rgba(121,85,72 ,1);
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    margin-top: 15px;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+
+.row{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.row:nth-child(2){
+    margin: 5px 0;
+}
+.box{
+    background: rgba(189,189,189 ,.9);
+    width: 130px;
+    height: 130px;
+    font-size: 100px;
+    text-decoration: none;
+    text-align: center;
+    color: #795548;
+}
+
+.turn{
+    font-size: 24px;
+    color: #795548;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px 0 0;
+}
+.begin{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.begin a{
+    text-decoration: none;
+    color: #f4f4f4;
+    background-color: #795548;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 25px;
+}
+
+
+.xando{
+    text-align: center;
+}
+
+.xando h5{
+    color: #795548;
+    font-size: 24px;
+    margin: 0 0 15px;
+}
+
+.xando a{
+    color: #f4f4f4;
+    font-size: 24px;
+    margin: 0;
+    text-decoration: none;
+    background-color: #795548;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.xando .O{
+    margin-left: 50px;
+}
+
+.reset-game{
+    text-align: center;
+}
+
+.reset-game h5{
+    color: #795548;
+    font-size: 24px;
+    margin: 0 0 15px;
+}
+
+.reset-game a{
+    color: #f4f4f4;
+    font-size: 24px;
+    margin: 0;
+    text-decoration: none;
+    background-color: #795548;
+    padding: 10px 15px;
+    border-radius: 10px;
+}
+
+.hide{
+    display: none;
+}
+
+.winner{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(121, 85, 72, .65);
+    z-index: 5;
+}
+
+.message{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+            transform: translateY(-50%);
+    font-size: 28px;
+    margin: 0;
+    text-align: center;
+    color: #f4f4f4;
+}
